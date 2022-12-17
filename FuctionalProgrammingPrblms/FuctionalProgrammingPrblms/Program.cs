@@ -4,6 +4,7 @@
     {
         static void Main(string[] args)
         {
+
             while (true)
             {
                 Console.WriteLine("Select program \n1.Flip Coin \n2.Leap Year\n3.Power of Two numbers\n4.Harmonic Number\n5.Factors of Number \n6.QuotientRemainder \n7.Swap Two Numbers \n8. check Given Number is Even or Odd \n9. Check an Alphabet is Vowel or Consonant");
@@ -41,6 +42,10 @@
                     case 8:
                         EvenOrOdd evenOrOdd = new EvenOrOdd();
                         evenOrOdd.EvenandOdd();
+                        break;
+                    case 9:
+                        AlphabateIsVowelOrConsonant alphabateIsVowelOrConsonant = new AlphabateIsVowelOrConsonant();
+                        alphabateIsVowelOrConsonant.Alphabet();
                         break;
 
                 }
